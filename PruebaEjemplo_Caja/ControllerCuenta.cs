@@ -40,6 +40,18 @@ namespace PruebaEjemplo_Caja
             }
             return false;
         }
+        public bool depositarDinero(double monto, string cuenta)
+        {
+            foreach (var item in usuarioCuentas)
+            {
+                if (item.cuenta.Equals(cuenta.Trim()))
+                {
+                    item.monto = item.monto + monto;
+                    return true;
+                }
+            }
+            return false;
+        }
 
         public UsuarioCuenta buscarXCuenta(string cuenta)
         {
