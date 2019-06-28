@@ -35,49 +35,56 @@ namespace PruebaEjemplo_Caja
             char monedacta1, monedacta2;
 
             usuario = buscarXCuenta(ctaOrigen);
-            if (usuario != null)
+            if (monto > usuario.monto)
             {
-                monedacta1 = usuario.moneda;
-                usuario = buscarXCuenta(ctaDestino);
-                if(usuario!= null)
-                {
-                    monedacta2 = usuario.moneda;
-                    bandera = true;
-                }
-                else
-                {
-                    return "Cuenta destino inexistente.";
-                }
+                return "Saldo insuficiente en cuenta origen saldo actual: " + usuario.monto;
             }
             else
             {
-                return "Cuenta origen inexistente";
-            }
-            if (bandera == true)
-            {
-                if (monedacta1 == monedacta2)
+                if (usuario != null)
                 {
-                    foreach (var item in usuarioCuentas)
+                    monedacta1 = usuario.moneda;
+                    usuario = buscarXCuenta(ctaDestino);
+                    if (usuario != null)
                     {
-                        if (item.cuenta.Equals(ctaOrigen.Trim()))
-                        {
-                            item.monto = item.monto - monto;
-                        }
+                        monedacta2 = usuario.moneda;
+                        bandera = true;
                     }
-                    foreach (var item in usuarioCuentas)
+                    else
                     {
-                        if (item.cuenta.Equals(ctaDestino.Trim()))
-                        {
-                            item.monto = item.monto + monto;
-                        }
+                        return "Cuenta destino inexistente.";
                     }
-                    return "La transacción se realizo con éxito";
                 }
                 else
                 {
-                    return "La moneda de las cuentas no coinciden";
+                    return "Cuenta origen inexistente";
                 }
-                
+                if (bandera == true)
+                {
+                    if (monedacta1 == monedacta2)
+                    {
+                        foreach (var item in usuarioCuentas)
+                        {
+                            if (item.cuenta.Equals(ctaOrigen.Trim()))
+                            {
+                                item.monto = item.monto - monto;
+                            }
+                        }
+                        foreach (var item in usuarioCuentas)
+                        {
+                            if (item.cuenta.Equals(ctaDestino.Trim()))
+                            {
+                                item.monto = item.monto + monto;
+                            }
+                        }
+                        return "La transacción se realizo con éxito";
+                    }
+                    else
+                    {
+                        return "La moneda de las cuentas no coinciden";
+                    }
+
+                }
             }
             return "No se realizo la transacción";
         }
