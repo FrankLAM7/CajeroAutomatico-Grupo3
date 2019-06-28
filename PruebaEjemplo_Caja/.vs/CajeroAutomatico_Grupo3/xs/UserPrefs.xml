@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{BC1A1B6D-2B82-4F99-9136-745A197D20D3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ControllerCuenta.cs">
+    <Files>
+      <File FileName="Program.cs" Line="39" Column="67" />
+      <File FileName="ControllerCuenta.cs" Line="165" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CajeroAutomatico_Grupo3" expanded="True">
+            <Node name="CajeroAutomatico_Grupo3" expanded="True">
+              <Node name="ControllerCuenta.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CajeroAutomatico__Grupo3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

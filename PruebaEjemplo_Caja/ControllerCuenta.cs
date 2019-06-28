@@ -142,7 +142,27 @@ namespace PruebaEjemplo_Caja
         public void EscribirLista()
         {
             StreamWriter sw;
+            string encabezado = "dni,nombres,apellidos,cuenta,monto,moneda";
             string linea = "";
+
+            try
+            {
+                sw = new StreamWriter(archivo);
+
+                sw.WriteLine(encabezado);
+
+                foreach (var item in usuarioCuentas)
+                {
+                    linea = $"{item.dni },{ item.nombres},{ item.apellidos},{ item.cuenta},{item.monto},{item.moneda}";
+                    sw.WriteLine(linea);
+                }
+
+                sw.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al escribir archivo BD. {0}" + ex);
+            }
         }
         private void CargarLista()
         {

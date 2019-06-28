@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Visual Studio\\Semana 5\\Dia 3\\CajeroAutomatico-Grupo3\\PruebaEjemplo_Caja\\CajeroAutomatico_Grupo3.csproj": {}
+    "/Users/nielsenpuma/Desktop/Repositorios/CajeroAutomatico-Grupo3/PruebaEjemplo_Caja/CajeroAutomatico_Grupo3.csproj": {}
   },
   "projects": {
-    "E:\\Visual Studio\\Semana 5\\Dia 3\\CajeroAutomatico-Grupo3\\PruebaEjemplo_Caja\\CajeroAutomatico_Grupo3.csproj": {
+    "/Users/nielsenpuma/Desktop/Repositorios/CajeroAutomatico-Grupo3/PruebaEjemplo_Caja/CajeroAutomatico_Grupo3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Visual Studio\\Semana 5\\Dia 3\\CajeroAutomatico-Grupo3\\PruebaEjemplo_Caja\\CajeroAutomatico_Grupo3.csproj",
+        "projectUniqueName": "/Users/nielsenpuma/Desktop/Repositorios/CajeroAutomatico-Grupo3/PruebaEjemplo_Caja/CajeroAutomatico_Grupo3.csproj",
         "projectName": "CajeroAutomatico_Grupo3",
-        "projectPath": "E:\\Visual Studio\\Semana 5\\Dia 3\\CajeroAutomatico-Grupo3\\PruebaEjemplo_Caja\\CajeroAutomatico_Grupo3.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "E:\\Visual Studio\\Semana 5\\Dia 3\\CajeroAutomatico-Grupo3\\PruebaEjemplo_Caja\\obj\\",
+        "projectPath": "/Users/nielsenpuma/Desktop/Repositorios/CajeroAutomatico-Grupo3/PruebaEjemplo_Caja/CajeroAutomatico_Grupo3.csproj",
+        "packagesPath": "/Users/nielsenpuma/.nuget/packages/",
+        "outputPath": "/Users/nielsenpuma/Desktop/Repositorios/CajeroAutomatico-Grupo3/PruebaEjemplo_Caja/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/nielsenpuma/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

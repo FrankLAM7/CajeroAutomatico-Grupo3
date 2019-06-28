@@ -39,7 +39,7 @@ namespace PruebaEjemplo_Caja
             //Console.WriteLine(controller.buscarXCuenta(cuenta));
             //controller.retirarDinero(monto, cuenta);
             //Console.WriteLine(controller.buscarXCuenta(cuenta));
-            bool resp = controller.transferenciaDinero("275-8143201", "379-2398783", 1000);
+            var resp = controller.transferenciaDinero("275-8143201", "379-2398783", 1000);
             controller.listarTodos();
             Console.WriteLine(resp);
             Console.ReadKey();
