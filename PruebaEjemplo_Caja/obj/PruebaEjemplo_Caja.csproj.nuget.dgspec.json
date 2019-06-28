@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/PruebaEjemplo_Caja.csproj": {}
+  },
+  "projects": {
+    "/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/PruebaEjemplo_Caja.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/PruebaEjemplo_Caja.csproj",
+        "projectName": "PruebaEjemplo_Caja",
+        "projectPath": "/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/PruebaEjemplo_Caja.csproj",
+        "packagesPath": "/Users/nielsenpuma/.nuget/packages/",
+        "outputPath": "/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/nielsenpuma/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

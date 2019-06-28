@@ -1,0 +1,10 @@
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/bin/Debug/netcoreapp2.1/CajeroAutomatico_Grupo3.deps.json
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/bin/Debug/netcoreapp2.1/CajeroAutomatico_Grupo3.runtimeconfig.json
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/bin/Debug/netcoreapp2.1/CajeroAutomatico_Grupo3.runtimeconfig.dev.json
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/bin/Debug/netcoreapp2.1/CajeroAutomatico_Grupo3.dll
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/bin/Debug/netcoreapp2.1/CajeroAutomatico_Grupo3.pdb
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/Debug/netcoreapp2.1/CajeroAutomatico_Grupo3.csproj.CoreCompileInputs.cache
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/Debug/netcoreapp2.1/CajeroAutomatico_Grupo3.AssemblyInfoInputs.cache
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/Debug/netcoreapp2.1/CajeroAutomatico_Grupo3.AssemblyInfo.cs
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/Debug/netcoreapp2.1/CajeroAutomatico_Grupo3.dll
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/Debug/netcoreapp2.1/CajeroAutomatico_Grupo3.pdb

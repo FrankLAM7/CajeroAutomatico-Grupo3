@@ -1,0 +1,11 @@
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/bin/Debug/netcoreapp2.1/PruebaEjemplo_Caja.deps.json
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/bin/Debug/netcoreapp2.1/PruebaEjemplo_Caja.runtimeconfig.json
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/bin/Debug/netcoreapp2.1/PruebaEjemplo_Caja.runtimeconfig.dev.json
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/bin/Debug/netcoreapp2.1/PruebaEjemplo_Caja.dll
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/bin/Debug/netcoreapp2.1/PruebaEjemplo_Caja.pdb
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/Debug/netcoreapp2.1/PruebaEjemplo_Caja.csprojAssemblyReference.cache
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/Debug/netcoreapp2.1/PruebaEjemplo_Caja.csproj.CoreCompileInputs.cache
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/Debug/netcoreapp2.1/PruebaEjemplo_Caja.AssemblyInfoInputs.cache
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/Debug/netcoreapp2.1/PruebaEjemplo_Caja.AssemblyInfo.cs
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/Debug/netcoreapp2.1/PruebaEjemplo_Caja.dll
+/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/Debug/netcoreapp2.1/PruebaEjemplo_Caja.pdb
