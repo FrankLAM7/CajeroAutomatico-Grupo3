@@ -27,8 +27,7 @@ namespace PruebaEjemplo_Caja
                 Console.WriteLine(item);
             }
         }
-
-        public string transferenciaDinero(string ctaOrigen, string ctaDestino, double monto)
+public string transferenciaDinero(string ctaOrigen, string ctaDestino, double monto)
         {
             UsuarioCuenta usuario = new UsuarioCuenta();
             bool bandera = false;
@@ -91,19 +90,27 @@ namespace PruebaEjemplo_Caja
         public bool retirarDinero(double monto, string cuenta)
         {
             //UsuarioCuenta uCuenta = buscarXCuenta(cuenta);
-
+      
             foreach (var item in usuarioCuentas)
             {
                 if (item.cuenta.Equals(cuenta.Trim()))
                 {
+                	if(monto>item.monto){
+                		return false;
+                	}
                     item.monto = item.monto - monto;
                     return true;
                 }
             }
+            
             return false;
         }
         public bool depositarDinero(double monto, string cuenta)
         {
+        	if(monto<0){
+                return false;
+            }
+        	
             foreach (var item in usuarioCuentas)
             {
                 if (item.cuenta.Equals(cuenta.Trim()))
@@ -149,7 +156,27 @@ namespace PruebaEjemplo_Caja
         public void EscribirLista()
         {
             StreamWriter sw;
+            string encabezado = "dni,nombres,apellidos,cuenta,monto,moneda";
             string linea = "";
+
+            try
+            {
+                sw = new StreamWriter(archivo);
+
+                sw.WriteLine(encabezado);
+
+                foreach (var item in usuarioCuentas)
+                {
+                    linea = item.dni +"," +item.nombres+","+ item.apellidos+","+ item.cuenta+","+item.monto+","+item.moneda;
+                    sw.WriteLine(linea);
+                }
+
+                sw.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al escribir archivo BD. {0}" + ex);
+            }
         }
         private void CargarLista()
         {
@@ -190,3 +217,4 @@ namespace PruebaEjemplo_Caja
         }
     }
 }
+
