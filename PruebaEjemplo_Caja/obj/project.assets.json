@@ -688,28 +688,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/nielsenpuma/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Acer\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/CajeroAutomatico_Grupo3.csproj",
+      "projectUniqueName": "E:\\Visual Studio\\Semana 5\\Dia 3\\CajeroAutomatico-Grupo3\\PruebaEjemplo_Caja\\CajeroAutomatico_Grupo3.csproj",
       "projectName": "CajeroAutomatico_Grupo3",
-      "projectPath": "/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/CajeroAutomatico_Grupo3.csproj",
-      "packagesPath": "/Users/nielsenpuma/.nuget/packages/",
-      "outputPath": "/Users/nielsenpuma/Documents/ProjectVisualStudio/CodiGo5_Semana5/PruebaEjemplo_Caja/obj/",
+      "projectPath": "E:\\Visual Studio\\Semana 5\\Dia 3\\CajeroAutomatico-Grupo3\\PruebaEjemplo_Caja\\CajeroAutomatico_Grupo3.csproj",
+      "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+      "outputPath": "E:\\Visual Studio\\Semana 5\\Dia 3\\CajeroAutomatico-Grupo3\\PruebaEjemplo_Caja\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/nielsenpuma/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

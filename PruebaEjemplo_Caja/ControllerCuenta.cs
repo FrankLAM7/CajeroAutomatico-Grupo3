@@ -17,6 +17,8 @@ namespace PruebaEjemplo_Caja
             CargarLista();
         }
 
+      
+
         public void listarTodos()
         {
             Console.WriteLine("Mostrando lista");
@@ -26,6 +28,59 @@ namespace PruebaEjemplo_Caja
             }
         }
 
+        public string transferenciaDinero(string ctaOrigen, string ctaDestino, double monto)
+        {
+            UsuarioCuenta usuario = new UsuarioCuenta();
+            bool bandera = false;
+            char monedacta1, monedacta2;
+
+            usuario = buscarXCuenta(ctaOrigen);
+            if (usuario != null)
+            {
+                monedacta1 = usuario.moneda;
+                usuario = buscarXCuenta(ctaDestino);
+                if(usuario!= null)
+                {
+                    monedacta2 = usuario.moneda;
+                    bandera = true;
+                }
+                else
+                {
+                    return "Cuenta destino inexistente.";
+                }
+            }
+            else
+            {
+                return "Cuenta origen inexistente";
+            }
+            if (bandera == true)
+            {
+                if (monedacta1 == monedacta2)
+                {
+                    foreach (var item in usuarioCuentas)
+                    {
+                        if (item.cuenta.Equals(ctaOrigen.Trim()))
+                        {
+                            item.monto = item.monto - monto;
+                        }
+                    }
+                    foreach (var item in usuarioCuentas)
+                    {
+                        if (item.cuenta.Equals(ctaDestino.Trim()))
+                        {
+                            item.monto = item.monto + monto;
+                        }
+                    }
+                    return "La transacción se realizo con éxito";
+                }
+                else
+                {
+                    return "La moneda de las cuentas no coinciden";
+                }
+                
+            }
+            return "No se realizo la transacción";
+        }
         public bool retirarDinero(double monto, string cuenta)
         {
             //UsuarioCuenta uCuenta = buscarXCuenta(cuenta);
