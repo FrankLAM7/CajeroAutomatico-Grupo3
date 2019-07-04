@@ -171,7 +171,8 @@ namespace PruebaEjemplo_Caja
     		string option="";
     		UsuarioCuenta user=new UsuarioCuenta();
     		
-    		string rutaArchivo = (Directory.GetCurrentDirectory() + @"\db\bd.txt").ToString();
+    		//string rutaArchivo = (Directory.GetCurrentDirectory() + @"\db\bd.txt").ToString();
+    		string rutaArchivo = ("//172.23.11.136/pruebas/bdcajero.txt").ToString();
             ControllerCuenta controller = new ControllerCuenta(rutaArchivo);
            
     		
